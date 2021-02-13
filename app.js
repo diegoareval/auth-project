@@ -8,7 +8,7 @@ import mongoose from 'mongoose';
 
 import { config } from './store/config';
 import { applyPassportStrategy } from './store/passport';
-import { userController } from './controller';
+import userController from './controller';
 
 const app = express();
 
